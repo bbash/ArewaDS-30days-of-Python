@@ -1,0 +1,82 @@
+[
+    {
+        "Dataset name": "Iris",
+        "Dataset Description": "A small classic dataset from Fisher, 1936. One of the earliest known datasets used for evaluating classification methods.",
+        "Problem type": "Classification",
+        "Data Type": "Tabular",
+        "Number of Sample": "150 Instances",
+        "Number of Feature": "4 Features"
+    },
+    {
+        "Dataset name": "Heart Disease",
+        "Dataset Description": "4 databases: Cleveland, Hungary, Switzerland, and the VA Long Beach",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "303 Instances",
+        "Number of Feature": "13 Features"
+    },
+    {
+        "Dataset name": "Adult",
+        "Dataset Description": "Predict whether income exceeds $50K/yr based on census data. Also known as \"Census Income\" dataset. ",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "48.84K Instances",
+        "Number of Feature": "14 Features"
+    },
+    {
+        "Dataset name": "Wine",
+        "Dataset Description": "Using chemical analysis to determine the origin of wines",
+        "Problem type": "Classification",
+        "Data Type": "Tabular",
+        "Number of Sample": "178 Instances",
+        "Number of Feature": "13 Features"
+    },
+    {
+        "Dataset name": "Breast Cancer Wisconsin (Diagnostic)",
+        "Dataset Description": "Diagnostic Wisconsin Breast Cancer Database.",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "569 Instances",
+        "Number of Feature": "30 Features"
+    },
+    {
+        "Dataset name": "Diabetes",
+        "Dataset Description": "This diabetes dataset is from AIM '94",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate, Time-Series",
+        "Number of Sample": "1 Instances",
+        "Number of Feature": "20 Features"
+    },
+    {
+        "Dataset name": "Car Evaluation",
+        "Dataset Description": "Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "1.73K Instances",
+        "Number of Feature": "6 Features"
+    },
+    {
+        "Dataset name": "Wine Quality",
+        "Dataset Description": "Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009], http://www3.dsi.uminho.pt/pcortez/wine/).",
+        "Problem type": "Classification, Regression",
+        "Data Type": "Multivariate",
+        "Number of Sample": "4.9K Instances",
+        "Number of Feature": "12 Features"
+    },
+    {
+        "Dataset name": "Dry Bean Dataset",
+        "Dataset Description": "Images of 13,611 grains of 7 different registered dry beans were taken with a high-resolution camera. A total of 16 features; 12 dimensions and 4 shape forms, were obtained from the grains.",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "13.61K Instances",
+        "Number of Feature": "16 Features"
+    },
+    {
+        "Dataset name": "Bank Marketing",
+        "Dataset Description": "The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).",
+        "Problem type": "Classification",
+        "Data Type": "Multivariate",
+        "Number of Sample": "45.21K Instances",
+        "Number of Feature": "17 Features"
+    }
+]
