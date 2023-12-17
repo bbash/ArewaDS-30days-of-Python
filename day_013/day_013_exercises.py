@@ -12,7 +12,7 @@ print(new_list)
 print()
 
 # Question 3: Using list comprehension create the following list of tuples:
-list_of_tuple = [  (i, [(i ** j) for j in range(6)]) for i in range(11)]
+list_of_tuple = [  (i, *[(i ** j) for j in range(6)]) for i in range(11)]
 print(list_of_tuple)
 print()
 
