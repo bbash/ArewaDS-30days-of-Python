@@ -176,13 +176,19 @@ print(f"{pattern}:  {result}")
 # Question 13: Create a function returning a dictionary, where keys 
 # stand for starting letters of countries and values are the number of 
 # country names starting with that letter.
-def countries_dict(country):
-    dict = {}
-    dict[country[:2]] = len(country)
-    return dict
+def countries_dict(countries):
+    
+    store = {}
+    for country in countries:
+        if country[0] in store:
+            store[country[0]] += 1
+        else:
+             store[country[0]] = 1
+    return store    
 
-result = map(countries_dict, countries)
-print(f"Key values of countries and their length: {list(result)}")
+result = countries_dict(countries = c) 
+print(result)
+
 
 # Question 14: Declare a get_first_ten_countries function - it 
 # returns a list of first ten countries from the countries.js 
